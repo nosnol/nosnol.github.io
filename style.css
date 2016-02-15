@@ -10,6 +10,9 @@ html,body{
 
 body{
     background: #fff url(bg_kudo.JPG) 0 0 no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     position: absolute;
 }
