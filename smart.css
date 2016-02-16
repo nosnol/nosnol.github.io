@@ -25,10 +25,12 @@ body{
     height: auto;
     margin: 0 auto;
     position: relative;
-    top: 70px;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
 
-.smart-img-box ing{
+.smart-img-box img{
     width: 100%;
     height: auto;
 }
