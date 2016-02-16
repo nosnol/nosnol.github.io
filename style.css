@@ -20,6 +20,10 @@ body{
     width: 100%;
 }
 
+.smart-img-box{
+    display: none;
+}
+
 .thankyou{
     width: 940px;
     height: 400px;

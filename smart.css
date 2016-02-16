@@ -16,14 +16,19 @@ body{
     position: absolute;
 }
 
-.bg{
-    
+.smart-img-box{
+    width: 100%;
+    background-image: url(bg_sakura.png);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .thankyou{
-    width: 940px;
-    height: 300px;
+    width: 320px;
+    height: 100px;
     margin: 0 auto;
+    position: relative;
+    top: 75px;
 }
 
 .path{
@@ -32,39 +37,39 @@ body{
     stroke-width:1;    
     stroke-dasharray: 3000;
     stroke-dashoffset:3000;
-    -moz-animation:DASH 2s ease-in-out 1s forwards;
-    -webkit-animation:DASH 2s ease-in-out 1s forwards;
-    -o-animation:DASH 2s ease-in-out 1s forwards;
-    animation:DASH 2s ease-in-out 1s forwards;
-    -webkit-transition:all .3s ease-in-out;transition:all .3s ease-in-out; 
+    -moz-animation:DASH 5s ease-in 0s forwards;
+    -webkit-animation:DASH 5s ease-in 0s forwards;
+    -o-animation:DASH 5s ease-in 0s forwards;
+    animation:DASH 5s ease-in 0s forwards;
+    -webkit-transition:all 5s ease-in;transition:all 0s ease-in-out; 
 }
 
 @keyframes DASH{
     0%  {stroke-dashoffset:3000;fill:none;}
-    80% {stroke-dashoffset:2000;fill:none;}
+    80% {stroke-dashoffset:2000;fill:#fff;}
     100%{stroke-dashoffset:0;fill:#fff;}
 }
 
 @-moz-keyframes DASH{
     0%  {stroke-dashoffset:3000;fill:none;}
-    80% {stroke-dashoffset:2000;fill:none;}
+    80% {stroke-dashoffset:2000;fill:#fff;}
     100%{stroke-dashoffset:0;fill:#fff;}
 }
 
 @-webkit-keyframes DASH{
     0%  {stroke-dashoffset:3000;fill:none;}
-    80% {stroke-dashoffset:2000;fill:none;}
+    80% {stroke-dashoffset:2000;fill:#fff;}
     100%{stroke-dashoffset:0;fill:#fff;}
 }
 
 @-o-keyframes DASH{
     0%  {stroke-dashoffset:3000;fill:none;}
-    80% {stroke-dashoffset:2000;fill:none;}
+    80% {stroke-dashoffset:2000;fill:#fff;}
     100%{stroke-dashoffset:0;fill:#fff;}
 }
 
 @-ms-keyframes DASH{
     0%  {stroke-dashoffset:3000;fill:none;}
-    80% {stroke-dashoffset:2000;fill:none;}
+    80% {stroke-dashoffset:2000;fill:#fff;}
     100%{stroke-dashoffset:0;fill:#fff;}
 }
