@@ -20,6 +20,7 @@ body{
     width: 100%;
 }
 
+/*ここからスマホサイト用非表示*/
 .smart-img-box{
     display: none;
 }
@@ -35,6 +36,8 @@ body{
     position: relative;
     top: 75px;
 }
+/*ここまで*/
+
 
 .path{
     stroke:#fff;

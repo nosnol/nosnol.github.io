@@ -20,16 +20,19 @@ body{
 }
 
 .smart-img-box{
-    width: 100%;
-    
-    background-image: url(bg_sakura.png);
-    background-size: cover;
-    background-attachment: fixed;
+    display: block;
+    width: 280px;
+    height: 187px;
+    margin: 0 auto;
+    position: relative;
+    top: 195px;
 }
 
+/*ここからPC用サイト非表示*/
 .pc-svg{
     display: none;
 }
+/*ここまで*/
 
 .thankyou{
     width: 315px;
