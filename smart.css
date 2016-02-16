@@ -27,13 +27,12 @@ body{
     background-attachment: fixed;
 }
 
-.smart-svg{
-    width: 320px;
-    height: 150px;
+.pc-svg{
+    display: none;
 }
 
 .thankyou{
-    width: 320px;
+    width: 315px;
     height: 100px;
     margin: 0 auto;
     position: relative;

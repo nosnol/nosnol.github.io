@@ -24,6 +24,10 @@ body{
     display: none;
 }
 
+.smart-svg{
+    display: none;
+}
+
 .thankyou{
     width: 940px;
     height: 400px;
