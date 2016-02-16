@@ -21,11 +21,16 @@ body{
 
 .smart-img-box{
     display: block;
-    width: 280px;
-    height: 187px;
+    width: 100%;
+    height: auto;
     margin: 0 auto;
     position: relative;
-    top: 100px;
+    top: 70px;
+}
+
+.smart-img-box ing{
+    width: 100%;
+    height: auto;
 }
 
 /*ここからPC用サイト非表示*/
