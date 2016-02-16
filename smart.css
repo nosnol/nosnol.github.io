@@ -40,6 +40,16 @@ body{
     height: auto;
 }
 
+.smart-movie{
+    display: block;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    
+}
+
 /*ここからPC用サイト非表示*/
 .pc-svg{
     display: none;

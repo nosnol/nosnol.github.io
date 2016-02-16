@@ -25,6 +25,10 @@ body{
     display: none;
 }
 
+.smart-movie{
+    display:none;
+}
+
 .smart-svg{
     display: none;
 }
