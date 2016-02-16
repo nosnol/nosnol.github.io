@@ -46,7 +46,10 @@ body{
     height: 100px;
     margin: 0 auto;
     position: relative;
-    top: 75px;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
 
 .path{
