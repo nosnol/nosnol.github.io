@@ -13,12 +13,15 @@ html{
 }
 
 body{
+    background: #c9c9c9 url(sakura.jpg) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     position: absolute;
 }
 
 .smart-img-box{
-    width: 320px;
-    height: 240px;
+    width: 100%;
+    
     background-image: url(bg_sakura.png);
     background-size: cover;
     background-attachment: fixed;
