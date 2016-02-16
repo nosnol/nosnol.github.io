@@ -40,6 +40,30 @@ body{
     position: relative;
     top: 75px;
 }
+
+a{
+    display: block;
+    background: #f9f9f9;
+    width: 200px;
+    height: 20px;
+    padding: 20px;
+    text-align: center;
+    color: #f3adcd;
+    border: 2px solid #f3adcd;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 0 auto;
+    position: relative;
+    top: -25px;
+    font-size: 20px;
+    transition: 1s;
+}
+
+a:hover{
+    background: #f3adcd;
+    border: 2px solid #f9f9f9;
+    color: #f9f9f9;
+}
 /*ここまで*/
 
 

@@ -50,6 +50,31 @@ body{
     
 }
 
+
+a{
+    display: block;
+    background: #f9f9f9;
+    width: 100px;
+    height: 10px;
+    padding: 5px;
+    text-align: center;
+    color: #f3adcd;
+    border: 2px solid #f3adcd;
+    border-radius: 4px;
+    text-decoration: none;
+    margin: 0 auto;
+    position: relative;
+    top: -25px;
+    font-size: 20px;
+    transition: 1s;
+}
+
+a:hover{
+    background: #f3adcd;
+    border: 2px solid #f9f9f9;
+    color: #f9f9f9;
+}
+
 /*ここからPC用サイト非表示*/
 .pc-svg{
     display: none;
