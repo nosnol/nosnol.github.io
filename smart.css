@@ -25,7 +25,7 @@ body{
     height: auto;
     margin: 0 auto;
     position: absolute;
-    bottom: -10;
+    bottom: 0;
     right: 0;
     left: 0;
 }
@@ -46,10 +46,7 @@ body{
     height: 100px;
     margin: 0 auto;
     position: relative;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
+    top: 75px;
 }
 
 .path{
