@@ -42,8 +42,8 @@ body{
 
 .smart-movie{
     display: block;
-    width: 90%;
-    height: auto;
+    width: 150px;
+    height: 84px;
     margin: 0 auto;
     position: relative;
     top: 100px;
